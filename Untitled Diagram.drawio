@@ -1,9 +1,142 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0" version="27.0.5">
   <diagram name="Page-1" id="6OASAE5UzHgGlw01Rw8g">
-    <mxGraphModel>
+    <mxGraphModel dx="1055" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xmCSyagRpVapnINCk562-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-1" target="xmCSyagRpVapnINCk562-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-1" value="Monthly Electricity Consumption Data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="120" as="sourcePoint" />
+            <mxPoint x="760" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-4" value="Phase 1:&lt;div&gt;Data Selection&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="80" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-5" target="xmCSyagRpVapnINCk562-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-5" value="Clean Data&lt;div&gt;(Manage Missing Value)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-7" target="xmCSyagRpVapnINCk562-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-7" target="xmCSyagRpVapnINCk562-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-7" value="Data Partitioning&lt;div&gt;(60:40, 70:30, 80:20)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-8" value="Testing Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-9" value="Training Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="37.5" y="320" as="sourcePoint" />
+            <mxPoint x="757.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-17" value="Phase 2:&lt;div&gt;Data Pre-processing&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-18" value="Random Forest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="369" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-19" value="Neural Network" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="429" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-20" target="xmCSyagRpVapnINCk562-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-20" value="Linear Regression" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329.5" y="489" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-22" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="299.5" y="549" as="sourcePoint" />
+            <mxPoint x="299.5" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.5" y="549" as="sourcePoint" />
+            <mxPoint x="499.5" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.5" y="549" as="sourcePoint" />
+            <mxPoint x="299.5" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-25" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.5" y="349" as="sourcePoint" />
+            <mxPoint x="299.5" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-30" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="37.5" y="569" as="sourcePoint" />
+            <mxPoint x="757.5" y="569" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-31" value="Phase 3:&lt;div&gt;Model Development&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="529" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xmCSyagRpVapnINCk562-32" target="xmCSyagRpVapnINCk562-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-32" value="Performance Matrices:&lt;div&gt;- Mean Square Error (MSE)&lt;/div&gt;&lt;div&gt;- Mean Absolute Error (MAE)&lt;/div&gt;&lt;div&gt;- Mean Absolute Percentage Error (MAPE)&lt;/div&gt;&lt;div&gt;-R-squared (R²)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="610" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-34" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="37.5" y="740" as="sourcePoint" />
+            <mxPoint x="757.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-35" value="Phase 4:&lt;div&gt;Model Evaluation&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="700" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-36" value="Monthly Electricity Usage Prediction Model" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="770" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-38" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="37.5" y="860" as="sourcePoint" />
+            <mxPoint x="757.5" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xmCSyagRpVapnINCk562-39" value="Phase 5:&lt;div&gt;Expected Output&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="820" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
